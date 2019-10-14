@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #333;
 }
 
-/* Paragraph & Typographic */
+
 p {
   line-height: 28px;
   margin-bottom: 25px;
@@ -26,7 +26,7 @@ p {
     text-align: center;
 }
 
-/* Links */
+
 a {
   color: #1CBCAD;
   word-wrap: break-word;
@@ -63,11 +63,8 @@ a:after {
   padding: 0;
 }
 
-/*---------------------------------------------------
-  SECTION WRAPS
----------------------------------------------------*/
 
-/* Header Wrap */
+
 .header {
   background: #1CBCAD;
   background: url(../images/header-bg.jpg) no-repeat center top;
@@ -104,7 +101,7 @@ a:after {
   color: white;
 }
 
-/* About Wrap */
+
 .about {
   background: #2c3e50;
   padding-top: 60px;
@@ -143,8 +140,6 @@ a:after {
 
 
 
-/* Global Values */
-
 .desc {
   padding-top: 50px;
 }
@@ -181,9 +176,9 @@ sm {
   margin-bottom: 10px;
 }
 
-/* define some CSS3 animations: */
+
 body {
-  /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
+ 
   -webkit-backface-visibility: hidden;
 }
 
